@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.img {
+  width: 95%;
+  max-width: 600px;
+  transition: all 1.5s ease-in;
+}
+
+section {
+  background-color: #dbe6eb;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section-2 {
+  background-color: #fff;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(100%);
+}
